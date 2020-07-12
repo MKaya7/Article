@@ -1,0 +1,45 @@
+﻿@model Makale_CRUD.Models.Makale
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    <form method="post" asp-controller="makale" asp-action="Add">        
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>
+                    <input type="text" asp-for="Id" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>
+                    <input type="text" asp-for="Title" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>Article</td>
+                <td>
+                    <input type="text" asp-for="Article" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>
+                    <input type="text" asp-for="Author" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" value="Save"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
