@@ -39,8 +39,9 @@ CREATE TABLE `makale` (
 --
 
 INSERT INTO `makale` (`Id`, `Title`, `Article`, `Author`) VALUES
-('1234', 'Dijital Pazarlamaya Hakim Misiniz', 'Reon Pocket ismindeki bu klima Peltier etkisi sayesinde ise soğutma ve ısıtma eylemi gerçekleştiriliyor. Özel olarak üretilen tişörtün arka kısmındaki cebin içine koyulduğunda vücudu 13 dereceye kadar soğutabilen klima kış aylarında ise cihaz vücudu 8 dereceye kadar ısıtabiliyor. Akıllı telefon ile bağlantı kurarak yönetilen cihaz, USB-C bağlantısını kullanıyor ve iki saatte şarj edilebiliyor. Sony bu ürününü 2020 Tokyo Olimpiyatları için sunacağını belirtmişti. Covid-19 sebebiyle iptal edilen olimpiyatlara rağmen Sony, Reon Pocket’i piyasaya sürdü.', 'Kaya'),
-('573', 'Teknoloji', 'Reon Pocket ismindeki bu klima Peltier etkisi sayesinde ise soğutma ve ısıtma eylemi gerçekleştiriliyor. Özel olarak üretilen tişörtün arka kısmındaki cebin içine koyulduğunda vücudu 13 dereceye kadar soğutabilen klima kış aylarında ise cihaz vücudu 8 dereceye kadar ısıtabiliyor. Akıllı telefon ile bağlantı kurarak yönetilen cihaz, USB-C bağlantısını kullanıyor ve iki saatte şarj edilebiliyor.  Sony bu ürününü 2020 Tokyo Olimpiyatları için sunacağını belirtmişti. Covid-19 sebebiyle iptal edilen olimpiyatlara rağmen Sony, Reon Pocket’i piyasaya sürdü.', 'Mehmet');
+('1078', 'Makale 1', 'Hayal kurmak insanın doğasında var. En kötü, en zor günlerin bile hemen sonunda hayal kurmaya başlarız. Belki de hiç gerçekleşmeyeceğini bile bile… Ama yine de hayal kurmak çok güzel. Sağlığımız için, borçlarımızın bitmesi için ya da üniversite kazanmak için…', 'Hamza'),
+('5118', 'Makale 1', 'Modern Fizik’te Kuantum çok büyük anlam ifade eder. Birçok teknolojik kavramın altında yatan gerçekliği Kuantuma borçluyuz. Önümüzdeki günlerde hayata geçmesi planlanan 5G teknolojisinden tutun da akıllı telefonun RAM belleğine değin tüm alanlarda bu kavramın ayak izlerini bulabiliriz.', 'Ali'),
+('8590', 'Makale 2', 'Tıp dünyasının içinde bulunduğu kötü durum gün geçtikçe daha da kötüye gitmeye devam ediyor. Henüz okuma yazma bilmeyen ve hatta ismini soyadını dahi tam olarak söylemeyi beceremeyen çocukları Tıp sözcüğü ile tanıştırıyor ve her şeyden daha çok bu kelimeye alıştırıyoruz onları. ', 'Mehmet');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
